@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background: url("/Images/Background\ image.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.opacity {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0.9;
+  z-index: 0;
+}
+
+.logo {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+}
+
+.logo img {
+  object-fit: contain;
+  width: 310px;
+  justify-content: center;
+  text-align: center;
+}
+.all {
+  position: relative;
+  z-index: 1;
+  color: white;
+}
+
+.navbar nav ul {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  align-items: center;
+  padding: 1.5rem;
+  padding-top: 1rem;
+  font-family: "Inter", sans-serif;
+}
+.navbar nav ul li {
+  /* padding: 1rem; */
+}
+.navbar nav ul li a {
+  text-decoration: none;
+  color: white;
+  position: inherit;
+  z-index: 1;
+  font-family: "Inter", sans-serif;
+}
+
+/* .line {
+  border-right: 1px solid white;
+} */
+
+.lines {
+  width: 1px;
+  background-color: white;
+  height: 2rem;
+}
+
+.bigtext {
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 10rem;
+}
+
+.bigtext h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 100px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+hr {
+  width: 400px;
+  margin: 0 auto;
+  border: 1px solid #1a6f68;
+  margin-top: 0.5rem;
+}
+
+.bigtext p {
+  padding: 2rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+
+.bigtext a {
+  text-decoration: none;
+  color: white;
+}
+
+.bigtext button {
+  background-color: #1a6f68;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  width: 250px;
+  color: white;
+  font: size 20px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+}
+
+.foot {
+  margin-top: 10rem;
+  text-align: center;
+}
+
+.foot p {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.foot span {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.foot img {
+  padding: 0.5rem;
+  width: 197px;
+}
